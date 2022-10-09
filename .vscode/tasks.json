@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BricksBreaker Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Test",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Test",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win32",
+				"Test",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Test",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Test",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"Win64",
+				"Test",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreaker HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreaker HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreaker",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreakerEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreakerEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreakerEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreakerEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreakerEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreakerEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreakerEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreakerEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreakerEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreakerEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreakerEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreakerEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreakerEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreakerEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreakerEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreakerEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreakerEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BricksBreakerEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BricksBreakerEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BricksBreakerEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BricksBreakerEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\BricksBreaker.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.27"
+			}
+		}
+	]
+}

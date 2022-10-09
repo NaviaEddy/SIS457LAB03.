@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "BricksBreakerEditor Editor Win64 Development (BricksBreaker)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_BricksBreaker.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

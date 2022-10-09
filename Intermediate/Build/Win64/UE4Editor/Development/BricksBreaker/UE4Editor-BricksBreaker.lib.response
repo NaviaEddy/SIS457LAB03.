@@ -1,0 +1,27 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BricksBreaker.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\BricksBreakerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Antipotenciador.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Bola.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\BricksBreaker.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\BricksBreakerGameModeBase.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\JefeFinal.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Ladrillo.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Player_.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Potenciador.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Antipotenciador.gen.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Bola.gen.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\BricksBreaker.init.gen.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\BricksBreakerGameModeBase.gen.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\JefeFinal.gen.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Ladrillo.gen.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Player_.gen.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Potenciador.gen.cpp.obj"
+"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Default.rc2.res"
+/OUT:"C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\UE4Editor-BricksBreaker.lib"

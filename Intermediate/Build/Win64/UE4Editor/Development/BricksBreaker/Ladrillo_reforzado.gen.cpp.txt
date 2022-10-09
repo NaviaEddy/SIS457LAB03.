@@ -1,0 +1,7 @@
+C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Definitions.BricksBreaker.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Source\BricksBreaker/Ladrillo_reforzado.h
+C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Source\BricksBreaker\Ladrillo.h
+C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Inc\BricksBreaker\Ladrillo.generated.h
+C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Inc\BricksBreaker\Ladrillo_reforzado.generated.h

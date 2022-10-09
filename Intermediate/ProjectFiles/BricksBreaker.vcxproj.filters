@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BricksBreaker.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EBA0E136-B7E5-4D3C-BAFC-BDC71453268F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BricksBreaker.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BricksBreakerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{65E85482-3EED-4CBB-B45D-53B759EC1243}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BricksBreaker">
+      <UniqueIdentifier>{BBD03D88-D9EB-4166-91AF-66C0373335FB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BricksBreaker\Antipotenciador.cpp">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BricksBreaker\Antipotenciador.h">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BricksBreaker\Bola.cpp">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BricksBreaker\Bola.h">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\BricksBreaker\BricksBreaker.Build.cs">
+      <Filter>Source\BricksBreaker</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BricksBreaker\BricksBreaker.cpp">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BricksBreaker\BricksBreaker.h">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BricksBreaker\BricksBreakerGameModeBase.cpp">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BricksBreaker\BricksBreakerGameModeBase.h">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BricksBreaker\JefeFinal.cpp">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BricksBreaker\JefeFinal.h">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BricksBreaker\Ladrillo.cpp">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BricksBreaker\Ladrillo.h">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BricksBreaker\Player_.cpp">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BricksBreaker\Player_.h">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BricksBreaker\Potenciador.cpp">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BricksBreaker\Potenciador.h">
+      <Filter>Source\BricksBreaker</Filter>
+    </ClInclude>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

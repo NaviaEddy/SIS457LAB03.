@@ -1,0 +1,3 @@
+C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Development\BricksBreaker\Definitions.BricksBreaker.h
+C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Source\BricksBreaker\Ladrillo.h
+C:\Users\Adalid\Documents\Unreal Projects\BricksBreaker\Intermediate\Build\Win64\UE4Editor\Inc\BricksBreaker\Ladrillo.generated.h

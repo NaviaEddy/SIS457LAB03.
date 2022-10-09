@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BricksBreaker",
+			"Path": "C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\Source\\BricksBreaker.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BricksBreakerEditor",
+			"Path": "C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\Source\\BricksBreakerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

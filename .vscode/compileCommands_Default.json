@@ -1,0 +1,87 @@
+[
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Antipotenciador.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Antipotenciador.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Bola.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Bola.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\BricksBreaker.Build.cs",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\BricksBreaker.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\BricksBreaker.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\BricksBreakerGameModeBase.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\BricksBreakerGameModeBase.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\JefeFinal.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\JefeFinal.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Ladrillo.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Ladrillo.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Player_.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Player_.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Potenciador.cpp",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Eddy Navía Condori\\\\Downloads\\\\BricksBreakerSIS457LAB03-master\\\\SIS457LAB03\\\\Source\\\\BricksBreaker\\\\Potenciador.h",
+		"command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe @\"C:\\Users\\Eddy Navía Condori\\Downloads\\BricksBreakerSIS457LAB03-master\\SIS457LAB03\\.vscode\\compileCommands_Default\\BricksBreaker.210.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Source"
+	}
+]
